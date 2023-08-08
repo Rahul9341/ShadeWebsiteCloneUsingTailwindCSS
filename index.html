@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shade Sass Landing</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://assets.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="w-[75%] mx-auto">
+        <!-- navbar Section -->
+        <div class="flex justify-between my-10 lg:items-center items-center whitespace-nowrap">
+            <div>
+                <img class="max-w-none" src="images/5f0a3b118fbf67102c265c8b_asset 0.png" alt="">
+            </div>
+            <div class="lg:block hidden">
+                <ul class=" flex lg:flex-row lg:items-center lg:gap-[2vw]">
+                    <li><a href="">Free Landing Pages</a></li>
+
+                    <li><a href="">Features</a></li>
+
+                    <li><a href="">Services</a></li>
+
+                    <li><a href="">Pricing</a></li>
+
+                    <li><a href="">Contact</a></li>
+
+                    <li class="ml-16"><a href="">Browse Assets</a></li>
+                    <li>
+                        <button type="button" class="bg-[#1290a4] text-[#fff] text-lg/[28px] px-5 py-2 rounded">Clone
+                            The Demo</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="hamburger" class="lg:hidden flex w-[35px] h-[35px] pr-[0px] pb-[0px] justify-center items-center border-solid border-2 border-[#2b405a] rounded-[2px] cursor-pointer">
+                <div class="flex w-[16px] h-[14px] pr-[0px] pb-[0px] flex-col justify-between">
+                    <div class="w-[16px] h-[2px] pr-[0px] pb-[0px] bg-[#2b405a]"></div>
+                    <div class="w-[16px] h-[2px] pr-[0px] pb-[0px] bg-[#2b405a]"></div>
+                    <div class="w-[16px] h-[2px] pr-[0px] pb-[0px] bg-[#2b405a]"></div>
+                </div>
+            </div>
+
+            <!-- mobile section -->
+            <div id="hiddenContent" class="fixed left-auto top-[0%] right-[0%] bottom-[0%] w-[100%] sm:w-[350px] flex flex-wrap bg-[#fff] z-10">
+                <div id="cross" class="flex w-[50px] h-[50px] justify-center items-center bg-[#1290a4] cursor-pointer">
+                    <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f5d6e5b6ec90867f64e5aa8_Close.svg" alt="">
+                </div>
+                <div class="overflow-auto pt-[50px] px-[20px] flex-1 text-[#fff]">
+                    <div>
+                        <a href="" class="block py-[13px] border-t-[1px] border-solid border-[#ececec] text-[#1f1f1f] text-[16px]">All Templates</a>
+                        <a href="" class="block py-[13px] border-t-[1px] border-solid border-[#ececec] text-[#1f1f1f] text-[16px]">All Assets</a>
+                        <a href="" class="block py-[13px] border-t-[1px] border-solid border-[#ececec] text-[#1f1f1f] text-[16px]">Pages</a>
+                        <a href="" class="block py-[13px] border-t-[1px] border-solid border-[#ececec] text-[#1f1f1f] text-[16px]">Contact</a>
+                        <div class="mt-[20px] flex flex-col">
+                            <a href="#" class="inline-block w-[100%] mb-[16px] ml-0 bg-[#49b89f3b] text-center py-[12px] px-[30px] rounded-[4px] text-[#0f3d33] leading-[24px] font-semibold">Sign In</a>
+                            <a href="#" class="inline-block w-[100%] ml-[0px] py-[12px] px-[30px] rounded-[4px] text-[16px] leading-[24px] font-semibold bg-[#1290a4] text-[#fff] text-center cursor-pointer">Start free trial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- home section -->
+    <div>
+        <div class="w-[75%] mx-auto py-4 lg:py-14 grid grid-cols-1 lg:grid-cols-2 gap-[3vw]">
+            <div class="">
+                <h1
+                    class="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-[-2px] text-[#1f1f1f] leading-normal ">
+                    Live chat support for your customers.</h1>
+                <p class="mt-5 text-base lg:text-xl leading-9 text-[#222f3f]">Create custom landing pages with Shades
+                    that convert more visitors than any website—no coding required.</p>
+                <form action="" id="email-form" name="email-form" data-name="Email Form"
+                    class="flex flex-wrap flex-col lg:flex-row mt-[40px]">
+                    <input type="email"
+                        class="block h-[38px] py-[22px] lg:py-[28px] pr-[12px] pl-[20px] leading-[1.4] align-middle w-[100%] lg::w-[52%] mr-[10px] mb-[10px] lg:mb-[0px] flex-1 border-[1px] border-none border-[#000] rounded-[3px] bg-[#1290a412] text-[#666] text-[16px] font-semibold"
+                        maxlength="256" placeholder="Enter Your Email" required>
+                    <input type="submit" value="Get Started"
+                        class="inline-block py-[17px] lg:py-[9px] px-[15px] bg-[#1290a4] text-[#fff] cursor-pointer w-[100%] lg:w-[180px] rounded-[3px] text-[18px] font-bold leading-[29px]">
+                </form>
+                <p class="mt-5 text-[#878b90] text-base">Already using Shade ?<a class="text-[#1290a4]" href="#">Sign
+                        In</a></p>
+            </div>
+            <div>
+                <img class="lg:max-w-screen mx-auto" src="images/5f0a3b105dca8030ec5e50ee_asset 1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+
+    <div>
+        <div class="">
+            <img class="w-screen mb-[-16px]" src="images/5f0a3b0fe32edc743e8e1bc6_asset 2.svg" alt="">
+        </div>
+        <div class="bg-[#eef4f5] px-8 pt-[70px] pb-[96px] m-0 block">
+            <div class="mb-16">
+                <h1
+                    class="mb-[40px] lg:mb-0 text-black text-[36px] lg:text-[48px] tracking-[-2px] leading-[46px] lg:leading-[60px] font-semibold flex justify-center text-center">
+                    Mark your next step
+                </h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2vw] w-[80%] mx-auto">
+                <div class="bg-white">
+                    <div class="px-[35px] py-[35px] border border-solid border-[#d9e4e6]">
+                        <div class="mb-10">
+                            <img src="images/5f6bb8e8bea55c028be782dd_feature-icon-1.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl leading-[30px] font-medium mb-[20px]">Targeted Marketing</h1>
+                            <p class="mb-[30px] text-[#666]
+                            text-lg leading-[28px]">Whether it’s a small internal app or a new for millions of
+                                customers, our design and development teams.</p>
+                            <a href="#" class="flex w-[120px] justify-between text-[#1290a4] text-[18px] max-w-[100%]">
+                                <div class="text-[18px] leading-[25px] font-bold">Learn more</div>
+                                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0ae9be0057b961cb37bf3b_chevron-right.svg"
+                                    width="6" alt="" class="relative top-[1px]">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="px-[35px] py-[35px] border border-solid border-[#d9e4e6]">
+                        <div class="mb-10">
+                            <img src="images/5f6bb8ea9c7e70f665259c5e_feature-icon-2.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl leading-[30px] font-medium mb-[20px]">Targeted Marketing</h1>
+                            <p class="mb-[30px] text-[#666]
+                            text-lg leading-[28px]">Whether it’s a small internal app or a new for millions of
+                                customers, our design and development teams.</p>
+                            <a href="#" class="flex w-[120px] justify-between text-[#1290a4] text-[18px] max-w-[100%]">
+                                <div class="text-[18px] leading-[25px] font-bold">Learn more</div>
+                                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0ae9be0057b961cb37bf3b_chevron-right.svg"
+                                    width="6" alt="" class="relative top-[1px]">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="px-[35px] py-[35px] border border-solid border-[#d9e4e6] ">
+                        <div class="mb-10">
+                            <img src="images/5f6bb8ea80693e1eb5e07448_feature-icon-3.svg" alt="">
+                        </div>
+                        <div>
+                            <h1 class="text-3xl leading-[30px] font-medium mb-[20px]">Targeted Marketing</h1>
+                            <p class="mb-[30px] text-[#666]
+                            text-lg leading-[28px]">Whether it’s a small internal app or a new for millions of
+                                customers, our design and development teams.</p>
+                            <a href="#" class="flex w-[120px] justify-between text-[#1290a4] text-[18px] max-w-[100%]">
+                                <div class="text-[18px] leading-[25px] font-bold">Learn more</div>
+                                <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f0ae9be0057b961cb37bf3b_chevron-right.svg"
+                                    width="6" alt="" class="relative top-[1px]">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+
+    <div class="pt-[120px] px-[30px] pb-[50px]">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[1vw] mb-[109px]">
+                <div class="">
+                    <img src="images/5f0a3b1040228a02efb5ed12_asset 3.png" alt="">
+                </div>
+                <div class="max-w-[460px]">
+                    <h1
+                        class="text-[36px] lg:text-[48px] leading-[46px] lg:leading-[60px] font-semibold mb-[12px] lg:mb-[25px]">
+                        Response on a chat wherever you are</h1>
+                    <p class="mb-[65px] text-[#333] text-xl leading-[36px]">Create custom landing pages with Shades that
+                        convert more visitors than any website, no coding
+                        required.</p>
+                    <a data-w-id="6700e3b7-8e51-8b3b-0706-0aa32da210cb" href=""
+                        class="text-[#1290a4] flex w-[120px] justify-between content-center">
+                        <p class="font-bold text-lg leading-[25px]">Learn more</p>
+                        <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb9ba8a5fbf1aaa181a3b_chevron-right.svg"
+                            alt="" class="relative top-px">
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[1vw] mb-[109px]">
+                <div>
+                    <h1
+                        class="text-[36px] lg:text-[48px] leading-[46px] lg:leading-[60px] font-semibold mb-[12px] lg:mb-[25px]">
+                        Never miss a thing</h1>
+                    <p class="mb-[65px] text-[#333] text-xl leading-[36px]">Event is not like most tech conferences. We
+                        want our presentations to engage the audience, spark
+                        discussion and inspire new ideas.</p>
+                    <div>
+                        <div class="flex mb-[12px] content-center">
+                            <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb88a1375c545fd9bb533_check-circle.svg"
+                                alt="">
+                            <p class="text-[#333] pl-[20px] text-xl leading-[32px]">Unlimited design possibility</p>
+                        </div>
+                        <div class="flex mb-[12px] content-center">
+                            <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb88a1375c545fd9bb533_check-circle.svg"
+                                alt="">
+                            <p class="text-[#333] pl-[20px] text-xl leading-[32px]">Completely responsive</p>
+                        </div>
+                        <div class="flex mb-[12px] content-center">
+                            <img src="https://assets.website-files.com/5f0a3ac2c99ebfc3a7c8728b/5f6bb88a1375c545fd9bb533_check-circle.svg"
+                                alt="">
+                            <p class="text-[#333] pl-[20px] text-xl leading-[32px]">Easy to customize</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/5f0a3b10ba4f26f31b51be6c_asset 4.png" alt="">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-[1vw] mb-[109px]">
+                <div>
+                    <img src="images/5f0a3b1159b2c26de894f2c7_asset 6.png" alt="">
+                </div>
+                <div class="max-w-[460px]">
+                    <h1
+                        class="text-[36px] lg:text-[48px] leading-[46px] lg:leading-[60px] font-semibold mb-[12px] lg:mb-[25px]">
+                        Increase Customer Support Productivity
+                    </h1>
+                    <p class="mb-[24px] text-[#333] text-xl leading-[36px]">vent is not like most tech conferences. We
+                        want our presentations to engage the audience, spark
+                        discussion and inspire new ideas.</p>
+                    <div class="h-px bg-[#e5e5e5] mb-[24px] mt-[-45]"></div>
+                    <p class="mb-[65px] text-[#333] text-xl leading-[36px]">vent is not like most tech conferences. We
+                        want our presentations to engage the audience, spark
+                        discussion and inspire new ideas.</p>
+                    <a href=""
+                        class="bg-[#f46f7c] text-[#fff] leading-[25px] font-bold rounded-[3px] px-[22px] py-[13px]">Schedule
+                        A Demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRICING SECTION -->
+
+    <img src="images/5f0a3b10fda6701e9ee6534a_asset 7.svg" alt="" class="relative bottom-[-2px] ">
+    <div class="bg-[#30393b] py-[120px] px-[30px]">
+        <div class="max-w-[1110px] mx-auto">
+            <h2 class="mx-auto mb-[20px] text-[#fff] text-5xl leading-[56px] tracking-[-3px] text-center font-semibold">
+                Pricing that suits you better</h2>
+            <p class="max-w-[680px] mx-auto mb-[90px] text-[#878b90] leading-[36px] text-xl font-normal text-center">We
+                designed and tested prototypes that helped identify pain points in the account creation process.
+                Together, we shaped the new standard.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-[5vw] lg:gap-[1vw]">
+                <div class="px-[50px] py-[50px] rounded-[3px] bg-[#fff] text-left relative">
+                    <div class="relative">
+                        <p class="mb-[35px] text-[#878b90] text-[13px] font-bold text-left uppercase">BASIC</p>
+                        <h3 class="text-[#1f1f1f] text-[17px] text-left font-bold">
+                            <span class="relative text-[30px] right-[3px] top-[-10px]">$</span>
+                            <span class="text-[50px]">19</span>
+                            /month
+                        </h3>
+                        <p class="text-[#1f1f1f] mb-[40px] leading-[23px]">Good for small business launching their
+                            products less then once a year</p>
+                        <div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Blocks</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">5GB Clould Storages</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center line-through opacity-[0.46]">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Custom Domain Names</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center line-through opacity-[0.46]">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Emails</p>
+                            </div>
+                            <button type="button"
+                                class="mt-[20px] px-[30px] py-[12px] rounded-[4px] bg-[#1290a4] text-[#fff] text-[16px] font-semibold leading-[24px]">Start
+                                free trial</button>
+                            <p class="mt-[5px] text-[#666] leading-[28px]">No credit card required</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[50px] py-[50px] rounded-[3px] bg-[#fff] text-left relative">
+                    <div class="absolute left-0 right-0 top-0 bottom-auto h-[5px] bg-[#f46f7c]"></div>
+                    <div class="flex justify-between mb-[35px]">
+                        <p class="text-[#878b90] text-[13px] font-bold text-left uppercase">Pro</p>
+                        <p
+                            class="w-[83px] mb-0 py-[8px] px-[12px] rounded-[50px] bg-[#f46f7c] text-[#fff] text-[12px] leading-[12px] text-center font-medium">
+                            Popular</p>
+                    </div>
+                    <div>
+                        <h3 class=" text-[#1f1f1f] text-[17px] text-left font-bold">
+                            <span class="relative text-[30px] right-[3px] top-[-10px]">$</span>
+                            <span class="text-[50px]">25</span>
+                            /month
+                        </h3>
+                        <p class="text-[#1f1f1f] mb-[40px] leading-[23px]">Good for small business launching their
+                            products less then once a year</p>
+                        <div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Blocks</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">5GB Clould Storages</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Custom Domain Names</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center line-through opacity-[0.46]">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Emails</p>
+                            </div>
+                            <button type="button"
+                                class="mt-[20px] px-[30px] py-[12px] rounded-[4px] bg-[#1290a4] text-[#fff] text-[16px] font-semibold leading-[24px]">Start
+                                free trial</button>
+                            <p class="mt-[5px] text-[#666] leading-[28px]">No credit card required</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-[50px] py-[50px] rounded-[3px] bg-[#fff] text-left relative">
+                    <div class="relative">
+                        <p class="mb-[35px] text-[#878b90] text-[13px] font-bold text-left uppercase">BASIC</p>
+                        <h3 class="text-[#1f1f1f] text-[17px] text-left font-bold">
+                            <span class="relative text-[30px] right-[3px] top-[-10px]">$</span>
+                            <span class="text-[50px]">19</span>
+                            /month
+                        </h3>
+                        <p class="text-[#1f1f1f] mb-[40px] leading-[23px]">Good for small business launching their
+                            products less then once a year</p>
+                        <div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Blocks</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">5GB Clould Storages</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Custom Domain Names</p>
+                            </div>
+                            <div class="flex mb-[20px] items-center">
+                                <img src="images/5f0a488bc99ebf7ac4c88667_right-icon.png" alt=""
+                                    class="w-[15px] h-[15px] opacity-[0.86] relative top-[1px]">
+                                <p class="text-[#1f1f1f] text-[17px] pl-[17px] mb-[0px]">Unlimited Emails</p>
+                            </div>
+                            <button type="button"
+                                class="mt-[20px] px-[30px] py-[12px] rounded-[4px] bg-[#1290a4] text-[#fff] text-[16px] font-semibold leading-[24px]">Start
+                                free trial</button>
+                            <p class="mt-[5px] text-[#666] leading-[28px]">No credit card required</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p
+                class="max-w-[680px] mx-auto mt-[35px] lg:mt-[65px] text-[#878b90] leading-[32px] text-lg font-normal text-center">
+                Still confused?
+                <a href="" class="pl-[10px] text-[#fff]">Check our full feature list</a>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+
+    <div class="pt-[20px] md:pt-[60px] md:pb-[50px] px-[30px] lg:py-[120px]">
+        <div class="max-w-[730px] mx-auto mb-[60px] lg:mb-[120px] text-center">
+            <h2
+                class="mt-[20px] text-[#000] text-[36px] lg:text-5xl leading-[46px] lg:leading-[60px] tracking-[-2px] font-semibold mb-[10px]">
+                Join our
+                rich newsletter now</h2>
+            <p class="mb-[40px] text-[#666] text-[21px] leading-[31px]">We designed and tested prototypes that helped
+                identify pain points in the account creation process. Together, we shaped the new standard.</p>
+            <form action="" id="email-form" name="email-form" data-name="Email Form"
+                class="flex flex-wrap flex-col lg:flex-row mt-[40px]">
+                <input type="email"
+                    class="block h-[38px] py-[22px] lg:py-[28px] pr-[12px] pl-[20px] leading-[1.4] align-middle w-[100%] lg::w-[52%] mr-[10px] mb-[10px] lg:mb-[0px] flex-1 border-[1px] border-none border-[#000] rounded-[3px] bg-[#1290a412] text-[#666] text-[16px] font-semibold"
+                    maxlength="256" placeholder="Enter Your Email" required>
+                <input type="submit" value="Get Started"
+                    class="inline-block py-[17px] lg:py-[9px] px-[15px] bg-[#1290a4] text-[#fff] cursor-pointer w-[100%] lg:w-[180px] rounded-[3px] text-[18px] font-bold leading-[29px]">
+            </form>
+            <p class="max-w-[540px] mx-auto mt-[10px] mb-[20px] text-[#666] text-[15px] leading-[28px]">Your data is
+                protected. We never spam in your inbox</p>
+        </div>
+        <div class="flex max-w-[1140px] mx-auto pt-[50px] lg:pt-[100px] flex-wrap border-t-[1px] border-solid border-[#e5e5e5]">
+            <div class="w-[100%] pr-[0px] md:w-[50%] md:pr-[40px] lg:w-[40%] lg:pr-[20px]">
+                <a href="#" class="mr-[56px] max-w-[100%] inline-block bg-transparent">
+                    <img src="images/5f0a3b118fbf67102c265c8b_asset 0.png" alt="">
+                </a>
+                <p class="max-w-[320px] my-[20px] lg:my-[40px] text-[#666] text-[16px] leading-[28px]">Big, small, online, offline,
+                    local. Size doesn't matter. We work on diverse projects for top brands as well as for cool startups.
+                </p>
+                <div class="flex w-[90px] justify-between font-[Fa brands 400] mb-[60px] lg:mb-[0px]">
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                    <div><i class="fa-brands fa-twitter"></i></div>
+                    <div><i class="fa-brands fa-linkedin-in"></i></div>
+                </div>
+            </div>
+            <div class="w-[100%] md:w-[50%] lg:w-[15%] pr-[20px] mb-[40px] lg:mb-[0px]">
+                <h4 class="mb-[20px] lg:mb-[40px] text-[#666] text-[14px] leading-[18px] font-bold">Help Menu</h4>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">About</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Features</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Works</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Careers</a>
+            </div>
+            <div class="w-[100%] md:w-[50%] lg:w-[15%] pr-[20px] mb-[40px] lg:mb-[0px]">
+                <h4 class="mb-[20px] lg:mb-[40px] text-[#666] text-[14px] leading-[18px] font-bold">Support</h4>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Contact</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Help &
+                    Support</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Privacy
+                    Policy</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Terms &
+                    Conditions</a>
+            </div>
+            <div class="w-[100%] md:w-[50%] lg:w-[30%] md:px-[0px] lg:pr-[20px] lg:pl-[100px] mb-[40px] lg:mb-[0px]">
+                <h4 class="mb-[20px] lg:mb-[40px] text-[#666] text-[14px] leading-[18px] font-bold">Products</h4>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Contact</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Help &
+                    Support</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Privacy
+                    Policy</a>
+                <a href="" class="block py-[8px] text-[#1f1f1f] text-[15px] leading-[20px] font-semibold">Terms &
+                    Conditions</a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
